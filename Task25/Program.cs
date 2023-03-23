@@ -9,9 +9,9 @@
 int Prompt(string msg)
 {
     Console.WriteLine(msg);
-    string readInput = Console.ReadLine();
-    int result = int.Parse(readInput);
-    return result;
+    string readInput = Console.ReadLine(); //Вводим значение
+    int result = int.Parse(readInput); //приводим к числу
+    return result; //возвращаем результат
 }
 
 int Result(int A, int B)
